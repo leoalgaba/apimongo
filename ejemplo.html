@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/alertify.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/alertify.core.css" />
+		<link rel="stylesheet" href="css/alertify.default.css" id="toggleCSS" />
+		<title>EJEMPLO - ALERTIFY.JS</title>
+		<script>
+		/*
+		--------------------------------------------------------------------------------
+		| EJEMPLO Y SCRIPT ADAPTADO AL ESPAÑOL POR http://blog.reaccionestudio.com/    |
+		--------------------------------------------------------------------------------
+		|	VISÍTANOS !!!                                                              |
+		--------------------------------------------------------------------------------
+		*/
+			function alerta(){
+				//un alert
+				alertify.alert("<b>Blog Reaccion Estudio</b> probando Alertify", function () {
+					//aqui introducimos lo que haremos tras cerrar la alerta.
+					//por ejemplo -->  location.href = 'http://www.google.es/';  <-- Redireccionamos a GOOGLE.
+				});
+			}
+		
+			
+		</script>
+
+	</head>
+	<body>
+		<p align="center">
+			<br />
+			<input type="button" class="btn btn-success btn-lg active" value="Alerta" onClick="alerta()" /> <br />
+			
+		</p>
+
+	</body>
+</html>
